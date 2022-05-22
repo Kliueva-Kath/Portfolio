@@ -1,8 +1,11 @@
+.body {
+	background-color: #ECE5E4;
+}
+
 .page {
   font-family: "Cormorant Garamond", "Arial", sans-serif;
-}
-.page {
 	margin: 0 auto;
+	background-color: #ECE5E4;
 }
 
 /* header */
@@ -22,7 +25,7 @@
 .header__name {
 	font-size: 28px;
 	line-height: 1.2;
-	color: #10191E;
+	color: #000F3D;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -43,9 +46,9 @@
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	width: 950px;
 	margin: 0;
-  padding: 30px 0 40px;
+  padding: 30px 0 60px;
 	border-top: 1px solid rgba(84, 84, 84, 0.7);
 }
 
@@ -101,69 +104,45 @@
 
 .projects__title {
   font-size: 34px;
-  margin: 0 0 40px;
+  margin: 0 0 35px;
   text-align: center;
 }
 
 .projects__container {
   list-style: none; 
 	display: grid;
-	
-	
- /*  justify-content: space-between;
-  flex-wrap: wrap;
-	
+	justify-content: center;
+	grid-template-columns: repeat(3, 306px);
+  grid-template-rows: repeat(2, 290px);
+	gap: 16px;
+	/* justify-content: space-between; */
 	padding: 0;
-	margin: 0; */
+	margin: 0 auto; 
 }
-
-/* .flex-row_space_bottom {
-  margin-bottom: 60px;
-} */
 
 .project {
   background-position: center;
   background-size: cover;
+	width: 100%;
+	height: 100%;
 }
-
-/* .project_width_l {
-  width: 636px;
-}
-
-.project_width_m {
-  width: 306px;
-}
-
-.project_height_xl {
-  height: 557px;
-}
-
-.project_height_l {
-  height: 430px;
-}
-
-.project_height_m {
-  height: 290px;
-}
-
-.project_height_s {
-  height: 240px;
-} */
 
 
 .project_name_how-to-study {
-  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
-  order: 3;
+  background-image: url("./images/how-to-study.png");
 }
 
 .project_name_across-russia {
-  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
-  order: 2;
+  background-image: url("./images/across-russia.png");
+	grid-column: 1 / 4;
 }
 
 .project_name_mesto {
-  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
-  order: 1;
+  background-image: url("./images/mesto.png");
+}
+
+.project_name_premium-car {
+	background-image: url("./images/premium-car.png");
 }
 
 .project__overlay {
@@ -188,14 +167,42 @@
 }
 
 .footer {
-  height: 95px;
+  height: 50px;
 	display: flex;
   justify-content: center;
   max-width: 1330px;
 	min-width: 1280px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.footer__author {
+	margin: 0;
 }
 
 
 
 
+/* .project_width_l {
+  width: 636px;
+}
 
+.project_width_m {
+  width: 306px;
+}
+
+.project_height_xl {
+  height: 557px;
+}
+
+.project_height_l {
+  height: 430px;
+}
+
+.project_height_m {
+  height: 290px;
+}
+
+.project_height_s {
+  height: 240px;
+} */
