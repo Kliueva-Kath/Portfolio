@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Портфолио</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="портфолио Екатерины Клюевой">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Екатерина Клюева">
+</head>
+<body class="body">
+	<div class="page">
+		<!--header-->	
+  <header class="header">
+    <h1 class="header__name">Привет, меня зовут Екатерина Клюева!</h1>
+		<h2 class="header__about-me">Я начинающий веб-разработчик из Санкт-Петербурга</h2>
+		<ul class="header__contacts">
+			<li class="contacts__block">
+				<h3 class="contacts__header">Город</h3>
+				<p class="contacts__info">Санкт-Петербург</p>
+			</li>
+			<li class="contacts__block">
+				<h3 class="contacts__header">Номер телефона</h3>
+				<p class="contacts__info">+7(921)867-55-65</p>
+			</li>
+			<li class="contacts__block">
+				<h3 class="contacts__header">Email</h3>
+				<p class="contacts__info">kliueva95@gmail.com</p>
+			</li>
+			<li class="contacts__block">
+				<h3 class="contacts__header">GitHub</h3>
+				<a class="contacts__info contacts__link" href="https://github.com/Kliueva-Kath/"><img class="contacts__github-logo"src="./images/github-logo.png">Kliueva-Kath</a>
+			</li>
+		</ul>
+  </header>
+<!--основной контент-->
+  <main class="content">
+    <section class="projects">
+      <h2 class="projects__title">Мои работы</h2>
+      <ul class="projects__container">
+        <li class="project project_name_how-to-study project_width_m project_height_m">
+          <a href="https://kliueva-kath.github.io/how-to-learn/" class="project__overlay">CSS-анимации</a>
+        </li>
+        <li class="project project_name_across-russia project_width_l project_height_m">
+          <a href="https://kliueva-kath.github.io/russian-travel/" class="project__overlay">Адаптивная вёрстка</a>
+        </li>
+        <li class="project project_name_mesto project_width_m project_height_m">
+          <a href="https://kliueva-kath.github.io/mesto/" class="project__overlay">Приложение на JavaScript</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+<!--footer-->		
+  <footer class="footer centered-block">
+    <div class="footer__logo"></div>
+  </footer>
+		</div>
+</body>
+</html>

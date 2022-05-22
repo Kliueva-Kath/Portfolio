@@ -1,0 +1,203 @@
+.page {
+  font-family: "Cormorant Garamond", "Arial", sans-serif;
+}
+
+/* header */
+
+.header {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  max-width: 1330px;
+	min-width: 1280px;
+	padding: 0 10px;
+  
+}
+
+.header__name {
+	font-size: 28px;
+	line-height: 1.2;
+	color: #10191E;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* сделать более выделяющимся! */
+.header__about-me {
+	font-size: 14px;
+	line-height: 1.2;
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 30px;
+	font-weight: 500;
+}
+
+.header__contacts {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0;
+  padding: 30px 0 40px;
+	border-top: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+.contacts__block {
+	margin: 0;
+}
+
+.contacts__header {
+	font-size: 14px;
+	line-height: 1.2;
+	color: #595458;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.contacts__info {
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 0;
+	display: flex;
+	align-items: center;
+
+}
+
+.contacts__link {
+	text-decoration: none;
+	Color: #2f80ed;
+}
+
+.contacts__link:hover {
+	opacity: 0.8;
+}
+
+.contacts__github-logo {
+	height: 14px;
+	object-fit: contain;
+	margin-right: 5px;
+}
+
+/* проекты */
+
+.content {
+	max-width: 1330px;
+	min-width: 1280px;
+	margin: 0 auto;
+}
+
+.projects {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.projects__title {
+  font-size: 34px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.projects__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.flex-row_space_bottom {
+  margin-bottom: 60px;
+}
+
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+.project_width_l {
+  width: 636px;
+}
+
+.project_width_m {
+  width: 306px;
+}
+
+.project_height_xl {
+  height: 557px;
+}
+
+.project_height_l {
+  height: 430px;
+}
+
+.project_height_m {
+  height: 290px;
+}
+
+.project_height_s {
+  height: 240px;
+}
+
+
+.project_name_how-to-study {
+  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  order: 3;
+}
+
+.project_name_across-russia {
+  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  order: 2;
+}
+
+.project_name_mesto {
+  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  order: 1;
+}
+
+.project__overlay {
+  background-color: rgba(0, 0, 100, .8);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  opacity: 0;
+}
+
+.project__overlay:hover {
+  opacity: 1;
+}
+
+.footer {
+  height: 95px;
+	display: flex;
+  justify-content: center;
+  max-width: 1330px;
+	min-width: 1280px;
+}
+
+.footer__logo {
+  width: 145px;
+  height: 25px;
+  background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+}
+
+
+
+
