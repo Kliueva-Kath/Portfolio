@@ -1,11 +1,19 @@
 .body {
-	background-color: #ECE5E4;
+	background: rgba(255,0,192,0.06);
+	background: radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
+	background: -webkit-radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
+	background: -moz-radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
 }
 
 .page {
-  font-family: "Cormorant Garamond", "Arial", sans-serif;
+	font-family: "Cormorant Garamond", "Arial", sans-serif;
 	margin: 0 auto;
-	background-color: #ECE5E4;
+
+
+	background: rgba(255,0,192,0.06);
+	background: radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
+	background: -webkit-radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
+	background: -moz-radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
 }
 
 /* header */
@@ -179,30 +187,3 @@
 .footer__author {
 	margin: 0;
 }
-
-
-
-
-/* .project_width_l {
-  width: 636px;
-}
-
-.project_width_m {
-  width: 306px;
-}
-
-.project_height_xl {
-  height: 557px;
-}
-
-.project_height_l {
-  height: 430px;
-}
-
-.project_height_m {
-  height: 290px;
-}
-
-.project_height_s {
-  height: 240px;
-} */

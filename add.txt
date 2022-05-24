@@ -1,0 +1,32 @@
+    <div class='project project_frameworks project_procrastinate'>
+    <video class="project-video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
+    </div>
+
+.project_procrastinate {
+  width: 636px;
+  height: 557px;  
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+
+ <div class='project project_beginner project_design-principles'></div>
+
+.project_design-principles {
+  background-image: url(https://code.s3.yandex.net/web-code/design.png);
+}
+
+
+.project_beginner {
+  width: 636px;
+  height: 430px;
+}
