@@ -1,0 +1,14 @@
+.contacts__header {
+	font-size: 14px;
+	line-height: 1.2;
+	color: #595458;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.contacts__header {
+		font-size: 12px;
+	}
+}

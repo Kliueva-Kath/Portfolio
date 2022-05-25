@@ -1,0 +1,45 @@
+.project__overlay {
+  background-color: rgba(0, 0, 100, .8);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.project__overlay:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	.project__overlay {
+		font-size: 24px;
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.project__overlay {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.project__overlay {
+		font-size: 14px;
+		padding: 8px;
+	}
+}

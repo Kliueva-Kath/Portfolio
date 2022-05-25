@@ -1,0 +1,10 @@
+.project_name_how-to-study {
+  background-image: url("../../../../images/how-to-study.png");
+}
+
+.project_name_how-to-study::before {
+ 	content: "";
+  padding-bottom: 105%;
+  position: relative;
+	display: block;
+} 

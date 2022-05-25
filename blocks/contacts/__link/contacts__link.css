@@ -1,0 +1,8 @@
+.contacts__link {
+	text-decoration: none;
+	Color: #2f80ed;
+}
+
+.contacts__link:hover {
+	opacity: 0.8;
+}

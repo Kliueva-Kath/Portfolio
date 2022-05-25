@@ -1,0 +1,10 @@
+.project_name_premium-car {
+	background-image: url("../../../../images/premium-car.png");
+}
+
+.project_name_premium-car::before {
+ 	content: "";
+  padding-bottom: 105%;
+  position: relative;
+	display: block;
+} 

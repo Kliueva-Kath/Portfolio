@@ -1,0 +1,14 @@
+.project {
+  background-position: center;
+  background-size: cover;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+/* 
+.project::before {
+ content: "";
+    padding-bottom: 105%;
+    position: relative;
+	display: block;
+}  */

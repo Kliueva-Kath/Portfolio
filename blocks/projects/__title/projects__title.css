@@ -1,0 +1,19 @@
+.projects__title {
+  font-size: 34px;
+  margin: 0 0 35px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.projects__title {
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.projects__title {
+		font-size: 24px;
+		margin-bottom: 25px;
+	}
+}

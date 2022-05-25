@@ -1,0 +1,10 @@
+.project_name_mesto {
+  background-image: url("../../../../images/mesto.png");
+}
+
+.project_name_mesto::before {
+ 	content: "";
+  padding-bottom: 105%;
+  position: relative;
+	display: block;
+} 
