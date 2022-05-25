@@ -7,4 +7,5 @@
 	background: -moz-radial-gradient(circle farthest-side at top left, rgba(255,0,192,0.06) 20%, rgba(0,215,255,0.06) 80%);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100vh;
 }
